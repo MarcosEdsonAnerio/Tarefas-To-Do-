@@ -1,36 +1,148 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.pnp.*
+.pnp.js
+
+# React Native
+.expo/
+.expo-shared/
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+*.hprof
+*.log
+*.bak
+*.swp
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.cab
+*.bak
+*.lnk
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist/
+build/
+dist/
+tmp/
+temp/
+out/
+*.tgz
+
+# Production
+/build/
+*.tgz
+.env
+
+# JetBrains
+.idea/
+
+# dotenv environment files
+.env
+.env.*
+!.env.example
 
 # Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+/.expo/
+/.expo-shared/
 
-# Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# React Native
+/ios/Pods
+/ios/build
+/android/.gradle/
+/android/app/build/
+*.iml
+*.keystore
 
-# Metro
-.metro-health-check*
+# Dependency directories
+node_modules/
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
+# TypeScript
 *.tsbuildinfo
+
+# Mac System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Android Studio
+.idea/
+
+# VS Code specific
+.vscode/
+
+# Webpack
+/.webpack/
+
+# Next.js build output
+.next/
+out/
+
+# Gatsby files
+.cache/
+public/
+
+# Angular build output
+/dist/
+
+# Svelte build output
+/public/
+
+# Pnpm
+.pnp.*
+
+# Yarn
+.yarn/
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Log files
+*.log
+
+# Parcel cache
+.cache/
+
+# Debug files
+*.vsix
+*.history
+
+# Coverage folder used by tools like istanbul
+coverage/
+
+# Next.js build output
+.next/
+
+# Meteor
+.meteor/
+
+# React app build folder
+build/
