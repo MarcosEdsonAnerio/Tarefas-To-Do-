@@ -52,5 +52,3 @@ Professor responsável:
 * **Karan Luciano** - [Karan Luciano](https://github.com/Prof-Karan-Luciano)
 
 ---
-
-Somente altere os textos, deixe no mesmo sentido, é para criação do github, é desse jeito que faz, faça de acordo com essa atividade feita
